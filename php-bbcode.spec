@@ -12,6 +12,7 @@ License:	PHP License
 URL:		http://pecl.php.net/package/bbcode
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
 BuildRequires:	php-devel >= 3:5.2.0
+BuildRoot:	%{_tmppath}/%{name}-root
 
 %description
 This is a quick and efficient BBCode Parsing Library. It provides various tag
