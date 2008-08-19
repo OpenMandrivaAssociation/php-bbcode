@@ -5,7 +5,7 @@
 
 Summary:	BBCode parsing Extension
 Name:		php-%{modname}
-Version:	1.0.1
+Version:	1.0.2
 Release:	%mkrel 1
 Group:		Development/PHP
 License:	PHP License
