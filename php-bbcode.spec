@@ -5,12 +5,12 @@
 
 Summary:	BBCode parsing Extension
 Name:		php-%{modname}
-Version:	1.0.2
-Release:	%mkrel 15
+Version:	1.0.3
+Release:	%mkrel 0.0.b1.1
 Group:		Development/PHP
 License:	PHP License
 URL:		http://pecl.php.net/package/bbcode
-Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
+Source0:	http://pecl.php.net/get/%{modname}-%{version}b1.tgz
 BuildRequires:	php-devel >= 3:5.2.0
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
@@ -24,7 +24,7 @@ case.
 
 %prep
 
-%setup -q -n %{modname}-%{version}
+%setup -q -n %{modname}-%{version}b1
 [ "../package*.xml" != "/" ] && mv ../package*.xml .
 
 %build
