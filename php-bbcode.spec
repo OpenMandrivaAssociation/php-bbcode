@@ -6,7 +6,7 @@
 Summary:	BBCode parsing Extension
 Name:		php-%{modname}
 Version:	1.0.3
-Release:	%mkrel 0.0.b1.5
+Release:	%mkrel 0.0.b1.6
 Group:		Development/PHP
 License:	PHP License
 URL:		http://pecl.php.net/package/bbcode
